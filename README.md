@@ -10,10 +10,13 @@
 
 # Directories where the material should be stored
 
+All file ownership should be changed to root unless specified otherwise.
+
 ## hello-server
 ```
 /usr/local/bin
 ```
+**Notes**: Change the file ownership to www-data since in hello.conf because user is set to www-data
 
 ## index.html
 ```
